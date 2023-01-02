@@ -21,8 +21,8 @@ RUN python -m venv /py && \
     rm -rf /tmp && \
     apk del .tmp-build-deps && \
     adduser \
-        -D \ 
-        -H \ 
+        -D \
+        -H \
         django-user
         
 ENV PATH="/py/bin:$PATH"
